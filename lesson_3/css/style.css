@@ -1,0 +1,47 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+
+
+
+/*    start    */
+
+a {
+    color: blue;
+}
+
+span {
+    color: red;
+}
+
+.footer {
+    color: yellow;
+}
+
+h1 {
+    color: green;
+}
+
+.name {
+    color: aqua;
+}
+
+.text p {
+    color: blueviolet;
+}
+
+.nav,
+.content,
+.small {
+    color: darkorange;
+}
+
+.reproduction p {
+    color: violet;
+}
+
+.text ul {
+   color: springgreen;
+}
