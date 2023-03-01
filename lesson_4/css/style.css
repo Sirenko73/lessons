@@ -1,0 +1,97 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Climate+Crisis:regular);
+
+
+
+
+/*    start    */
+
+
+/* header */
+
+.header {
+    font-family: 'Climate Crisis', cursive;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px  cornflowerblue ;
+}
+
+.header p {
+    font-size: 20px;
+    color: aquamarine;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+/* main */
+
+.main {
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: aqua;
+}
+
+.text {
+    text-transform: capitalize;
+    text-transform: lowercase;
+    line-height: 2.2;
+}
+
+.text h2 {
+    text-transform: uppercase;
+}
+
+.text p {
+    word-spacing: 15px;
+}
+
+h2 {
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.text_end {
+    color: blueviolet;
+    line-height: 1.4;
+}
+
+.text_end p {
+    letter-spacing: 5px;
+    
+}
+
+/* footer */
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-shadow: 2px 2px 2px cornflowerblue ;
+    
+}
+
+span {
+    text-decoration: line-through;
+}
+
+/* end */
+
+
+
+
+
+
+
+
+
+
