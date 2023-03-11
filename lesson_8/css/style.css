@@ -1,0 +1,245 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+
+/*    start    */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #637381;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.page {}
+
+/* .........article__container.............. */
+
+.article__container {
+    background: url(../img/background1.jpg) center/cover no-repeat;
+}
+
+.article-block {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 330px 15px 100px;
+}
+
+.article-block p {
+    color: #E5E5E5;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.67;
+}
+
+.article-text {
+    font-family: 'Poppins';
+    max-width: 605px;
+}
+
+.article-text > * {
+    margin-bottom: 15px;
+}
+
+.article-text > *:last-child {
+    margin-bottom: 0;
+}
+
+.article-title {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #F8F9FA;
+}
+
+/*         shop__container                 */
+
+.shop__container {
+    background: url(../img/background2.jpg) center/cover no-repeat;
+}
+
+.shop-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.shop-text {
+    display: inline-block;
+    max-width: 570px;
+    padding: 145px 0px;
+    margin-right: 179px;
+}
+
+.shop-text > * {
+    margin-bottom: 15px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #3056D3;
+    margin-bottom: 13px;
+}
+
+.price:hover {
+    color: red;
+}
+
+.shop-title {
+    font-size: 36px;
+    line-height: 1.25;
+    color: #212B36;
+}
+
+.title-text {
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background: #3056D3;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.button:hover {
+    color: blue;
+    background: yellowgreen;
+}
+
+.button:active {
+    color: red;
+    padding: 15px 40px;
+    margin-left: -2.5px;
+    margin-top: -5px;
+    background: #637381;
+}
+
+.shop-text > *:last-child {
+    margin-bottom: 0px;
+}
+
+.img {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 81px;
+}
+
+/* ...........list__container........... */
+
+.list__container {
+    background: #FFFFFF;
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+
+.list-block {}
+
+.list-title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.08;
+    color: #212B36;
+    margin-bottom: 45px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+ul {
+    margin-bottom: 68px;
+}
+
+ul:last-child {
+    margin-bottom: 0px;
+}
+
+.list-one {
+    line-height: 0.94;
+    margin-left: 23px;
+}
+.list-one li {
+    margin-bottom: 18px;
+}
+.list-one li::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/icons/icons1.svg) 0 0 no-repeat;
+    width: 8px;
+    height: 8px;
+    padding-right: 18px;
+    transition: all 0.3s;
+}
+.list-one li:hover::before {
+    transform: scale(1.5);
+}
+
+.list-two li::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/icons/icons2.svg) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+
+.list-three li::before {
+    content: url("");
+    display: inline-block;
+    background: url(../img/icons/icons3.svg) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+
+.list-four li::before {
+    content: url("");
+    display: inline-block;
+    background: url(../img/icons/icons4.svg) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+
+.list-five li::before {
+    content: url("");
+    display: inline-block;
+    background: url(../img/icons/icons5.svg) 0 -3px no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+
+.list-six li::before {
+    content: url("");
+    display: inline-block;
+    background: url(../img/icons/icons6.svg) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+.list-six li {
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+
