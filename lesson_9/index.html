@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 9</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="page">
+
+        <div class="icons__container">
+            <div class="icons-block">
+        <h1 class="icons-title">Іконки</h1>
+        <p>Іконки - це векторні зображення, тобто вони складаються не з пікселів, а з ліній і мають формат SVG. Завдяки цьому при збільшенні такої іконки, її якість ніяк не зменшується. Здебільшого іконки виступають в ролі декоративних елементів і тільки доповнюють основний контент, тому малоймовірно, що їх потрібно буде змінювати, а відтак задаємо їх через властивість <span>background:</span> в CSS файлі.</p>
+        <p>Однак, існують й контентні іконки. Такі іконки швидше за все доведеться змінювати разом з контентом до якого вони належать, тому прописуємо їх через тег <span>img</span> в HTML файлі. Часто це можуть бути логотипи компаній, але далеко не завжди.</p>
+        <div class="logo">
+            <img src="img/icons/logo/Logo.svg" alt="logo">
+            <img src="img/icons/logo/LineIcons.svg" alt="LineIcons">
+            <img src="img/icons/logo/GrayGrids.svg" alt="GrayGrids">
+            <img src="img/icons/logo/AyroUI.svg" alt="AyroUI">
+        </div>
+        <div class="icons-content">
+            <img src="img/contenticons/contenticons1.svg" alt="contenticons1">
+            <img src="img/contenticons/contenticons2.svg" alt="contenticons2">
+            <img src="img/contenticons/contenticons3.svg" alt="contenticons3">
+            <img src="img/contenticons/contenticons4.svg" alt="contenticons4">
+            <img src="img/contenticons/contenticons5.svg" alt="contenticons5">
+            <img src="img/contenticons/contenticons6.svg" alt="contenticons6">
+        </div>
+    </div>
+    </div>
+    <div class="elements__container">
+        <div class="elements-block">
+            <div class="elements-text">
+                <h2 class="elements-title">Елементи дизайну</h2>
+                <p>Також існують зображення, які виконують тільки роль дизайну сайту, тому їх ми також задаємо через властивість <span>background:</span> <br>
+                    Зазвичай це різні геометричні фігури, для яких нам чудово підійде SVG формат.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content__container">
+        <div class="content-block">
+            <div class="content-text">
+                <h3 class="content-title">Контентні зображення</h3>
+                <p>Контентні зображення зазвичай являють собою растрові зображення формату JPEG / PNG (WebP). Такі зображення, є піксельними, а тому будуть втрачати якість, якщо сильно збільшувати їх оригінальне розширення. Ці зображення є прям контентом сайту, а тому можуть змінюватися і для цього нам потрібно задавати їх через тег <span>img</span> в HTML файлі.</p>
+                <p>При інтеграції таких зображень в нашу верстку для нас є важливим розмір файлів, тобто маса. Тому в більшості випадків ми будемо використовувати формати JPEG, так як він добре передає кольори і при цьому менше займає, ніж PNG формат. Однак, якщо необхідно, щоб зображення було прозорим, то доведеться таки скористатися форматом png. Однак, існують спеціальні сервіси, які допомагають нам оптимізувати розміри зображень, тому варто скористатися такими перед додаванням зображень у верстку. Крім того, гугл створив новий формат - WebP, для подальшої оптимізації.</p>
+                <p>Алгоритм стиснення WebP був створений, за словами Google, як альтернатива для файлів PNG і JPEG. Загалом отримане зображення WebP у середньому на 26% менше, ніж оригінальний PNG, і на 25-34% менше, ніж оригінальний JPEG. Однак у деяких конкретних випадках отримане зображення може бути більшим - набагато більшим. Бувають випадки, коли WebP версія PNG була вдвічі або втричі більшою за вихідний розмір файлу. Немає про що хвилюватися, іноді це просто обмеження алгоритму WebP, особливо коли вихідний файл уже оптимізовано. Тому варто користатися такою конвертацією, але потрібно зважати на вихідні результати.</p>
+            </div>
+            <div class="content-image">
+                <img src="img/girl.webp" alt="girl">
+                <img src="img/image1.webp" alt="image1">
+                <img src="img/image2.webp" alt="image2">
+                <img src="img/image7.webp" alt="image7">
+                <img src="img/image4.webp" alt="image4">
+                <img src="img/image5.webp" alt="image5">
+                <img src="img/image3.webp" alt="image3">
+                <img src="img/image6.webp" alt="image6">
+                <img src="img/image8.webp" alt="image8">
+                <img src="img/image9.webp" alt="image9">
+            </div>
+            <div class="content-job-people">
+                <img src="img/people1.webp" alt="people1">
+                <img src="img/people2.webp" alt="people2">
+                <img src="img/people3.webp" alt="people3">
+                <img src="img/people4.webp" alt="people4">
+            </div>
+        </div>
+    </div>
+    
+
+
+    </div>
+
+    </main>
+    <footer></footer>
+   
+    
+</body>
+</html>

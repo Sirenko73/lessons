@@ -1,0 +1,201 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+
+
+/*    start    */
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    background: slategray;
+    font-weight: 600;
+}
+.page {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+[class*="__container"] {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*              icons__container             */
+
+.icons__container {
+    background: rgba(15, 199, 162, 0.519);
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.icons-block {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icons-block > * {
+    margin-bottom: 30px;
+}
+
+.icons-title {
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.icons-block p:first-of-type {
+    padding-bottom: 30px;
+    background: 
+    url(../img/icons/instagram.svg) 45% 100% no-repeat,
+    url(../img/icons/twitter.svg) 50% 100% no-repeat,
+    url(../img/icons/facebook.svg) 55% 100% no-repeat,
+    url(../img/icons/linkedin.svg) 60% 100% no-repeat;
+}
+
+.icons-block p {
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+span {
+    background: cornflowerblue;
+}
+
+span:hover {
+    color: red;
+}
+
+.icons-title:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img:not(:last-child) {
+    margin-right: 50px;
+}
+
+.icons-content {
+    text-align: center;
+}
+
+.icons-content img:not(:last-child) {
+    margin-right: 15px;
+}
+
+.icons-block > *:last-child {
+    margin-bottom: 0;
+}
+
+
+/*          elements__container             */
+
+.elements__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(210, 105, 30, 0.685);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.elements-block {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.elements-text {
+}
+
+.elements-text > *:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.elements-title {
+    text-align: center;
+    font-size: 25px;
+    color: chartreuse;
+}
+
+.elements-title:hover {
+    text-decoration: underline;
+}
+
+.elements-text p:last-of-type {
+    line-height: 1.4;
+    text-align: center;
+    padding-bottom: 220px;
+    background: url(../img/elements/Shape.svg) 20% 70% no-repeat,
+    url(../img/elements/Ovagreen.svg) 30% 70% no-repeat,
+    url(../img/elements/rectangle.svg) 50% 100% no-repeat,
+    url(../img/elements/Ovalblue.svg) 70% 70% no-repeat,
+    url(../img/elements/oval.svg) 80% 70% no-repeat;
+}
+
+/*            content__container             */
+
+.content__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(153, 205, 50, 0.431);
+    border-radius: 40px;
+}
+
+.content-block {}
+
+.content-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content-text > * {
+    margin-bottom: 30px;
+}
+
+.content-title {
+    margin-bottom: 40px;
+    color: aquamarine;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.content-title:hover {
+    text-decoration: underline;
+}
+
+.content-text p {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content-image {
+    font-size: 0;
+    text-align: center;
+}
+
+.content-job-people {
+    font-size: 36px;
+    text-align: center;
+}
+
+.content-text > *:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
