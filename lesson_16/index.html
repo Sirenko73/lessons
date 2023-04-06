@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main class="page">
+            <div class="page__checkout checkout">
+                <div class="checkout__container">
+                    <div class="checkout__header">
+                        <div class="checkout__article">
+                            <h2 class="checkout__title">Checkout</h2>
+                            <p class="checkout__text">There are 3 products in your cart</p>
+                        </div>
+                    </div>
+                    <div class="checkout__main">
+                        <div class="checkout__subtitle">
+                            <h3>Billing Details</h3>
+                        </div>
+                        <form method="post" enctype="multipart/form-data" action="#" class="checkout__form">
+                                <div class="checkout__items">
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="first-name" placeholder="First name*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="last-name" placeholder="Last name*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="address" placeholder="Address*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="address2" placeholder="Address line 2" required>
+                                    </div>
+                                    <div class="checkout__list">
+                                        <select class="checkout__select" name="country" id="country">
+                                            <option selected disabled value="Country">Country*</option>
+                                            <option value="Ukraine">Ukraine</option>
+                                            <option value="Sweden">Sweden</option>
+                                            <option value="Germany">Germany</option>
+                                            <option value="Poland">Poland</option>
+                                            <option value="France">France</option>
+                                        </select>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="city" placeholder="City/Town*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="postcode" placeholder="Postcode / ZIP*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="tel" autocomplete="off" name="phone" placeholder="Phone*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" autocomplete="off" name="postcode" placeholder="Postcode / ZIP*" required>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="tel" autocomplete="off" name="phone" placeholder="Phone*" required>
+                                    </div>
+                                    <div class="checkout__area">
+                                        <textarea autocomplete="off" name="message" placeholder="Additional information"></textarea>
+                                    </div>
+                                </div>
+                                <div class="checkout__checkbox checkbox">
+                                    <div class="checkbox__items">
+                                        <input type="checkbox" name="account" id="account-01" class="checkbox__account" required checked>
+                                        <label class="checkbox__label" for="account-01">Create Account</label>
+                                    </div>
+                                    <div class="checkbox__items">
+                                        <input type="checkbox" name="adress" id="adress-01" class="checkbox__adress" required>
+                                        <label class="checkbox__label" for="adress-01">Ship to a different address?</label>
+                                    </div>
+                                </div>
+                                <div class="checkout__discount discount">
+                                    <div class="discount__title">
+                                        <h4>Apply Coupon to get discount!</h4>
+                                    </div>
+                                    <div class="discount__coupon coupon">
+                                        <input class="coupon__input" type="text" autocomplete="off" name="coupon" placeholder="Coupon code">
+                                        <button class="coupon__button" type="submit">Apply Code</button>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="page__ecommerce ecommerce">
+                <div class="ecommerce__container">
+                    <form action="#" method="post" enctype="multipart/form-data" class="ecommerce__login login-ecommerce">
+                        <h2 class="login-ecommerce__title">Shipping Address</h2>
+                        <div class="login-ecommerce__item">
+                            <label for="user-email" class="login-ecommerce__label">Email Address <span>*</span></label>
+                            <input class="login-ecommerce__input" type="email" name="user-email" id="user-email" required placeholder="roni_cost@example.com">
+                        </div>
+                        <div class="login-ecommerce__item">
+                            <label for="user-pass" class="login-ecommerce__label">Password</label>
+                            <input class="login-ecommerce__input" type="password" name="user-pass" id="user-pass" required placeholder="******************">
+                        </div>
+                        <div class="login-ecommerce__item">
+                            <label for="zip-code" class="login-ecommerce__label">Zip/Postal Code</label>
+                            <input class="login-ecommerce__input" type="text" name="zip-code" id="zip-code" required >
+                        </div>
+                        <div class="login-ecommerce__text">
+                            <p>You already have an account with us. Sign in or continue as guest.</p>
+                        </div>
+                        <div class="login-ecommerce__buttons">
+                            <button type="submit" class="login-ecommerce__button button">login</button>
+                            <a href="#" class="login-ecommerce__link">Forgot Your Password?</a>
+                        </div>
+                    </form>
+
+                    <form action="#" method="post" enctype="multipart/form-data" class="ecommerce__registretion registretion">
+                        <div class="registretion__items">
+                            <div class="registretion__item">
+                                <label for="f-name" class="registretion__label">First Name <span>*</span></label>
+                                <input class="registretion__input" type="text" name="f-name" id="f-name" required>
+                            </div>
+                            <div class="registretion__item">
+                                <label for="l-name" class="registretion__label">Last Name <span>*</span></label>
+                                <input class="registretion__input" type="text" name="l-name" id="l-name" required>
+                            </div>
+                            <div class="registretion__item">
+                                <label for="company" class="registretion__label">Company</label>
+                                <input class="registretion__input" type="text" name="company" id="company" >
+                            </div>
+                            <div class="registretion__item">
+                                <label for="s-address" class="registretion__label">Street Address <span>*</span></label>
+                                <input class="registretion__input" type="text" name="s-address" id="s-address" required>
+                            </div>
+                            <div class="registretion__item registretion__item--flex-end">
+                                <input type="text" class="registretion__input" name="s-address2">
+                            </div>
+                            <div class="registretion__item registretion__item--flex-end">
+                                <input type="text" class="registretion__input" name="s-address3">
+                            </div>
+                            <div class="registretion__item">
+                                <label for="country-02" class="registretion__label">Country <span>*</span></label>
+                                <input class="registretion__input" type="text" name="country" id="country-02" required>
+                            </div>
+                            <div class="registretion__item--select">
+                                <label for="state" class="registretion__label">State/Province   <span>*</span></label>
+                                <select name="state" id="state" class="registretion__select" required>
+                                    <option value="" selected disabled>Please select a region, state or province</option>
+                                    <option value="Turin">Turin</option>
+                                    <option value="Salerno">Salerno</option>
+                                    <option value="Bergamo">Bergamo</option>
+                                    <option value="Trentino">Trentino</option>
+                                    <option value="Fermo">Fermo</option>
+                                    <option value="Potenza">Potenza</option>
+                                </select>
+                            </div>
+                        </div>
+                        <h3 class="registretion__title">Shipping Methods</h3>
+                        <div class="registretion__bottom bottom-block">
+                            <div class="bottom-block__items">
+                                <div class="bottom-block__item">
+                                    <input class="bottom-block__input" type="radio" checked name="price" value="5" id="methods1">
+                                    <label class="bottom-block__label" for="methods1">$5.00</label>
+                                </div>
+                                <div class="bottom-block__middle">Fixed</div>
+                                <div class="bottom-block__last">Flat Rate</div>
+                            </div>
+                            <div class="bottom-block__items bottom-block__items--border">
+                                <div class="bottom-block__item">
+                                    <input class="bottom-block__input" type="radio" name="price" value="10" id="methods2">
+                                    <label class="bottom-block__label" for="methods2">$10.00</label>
+                                </div>
+                                <div class="bottom-block__middle">Table Rate</div>
+                                <div class="bottom-block__last">Best Way</div>
+                            </div>
+                        </div>
+                        <div class="registretion__buttons">
+                            <button class="registretion__button button">next</button>
+                            <button class="registretion__button button button--gray">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
